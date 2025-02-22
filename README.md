@@ -96,6 +96,9 @@ cd frontend && npm test
 - **Database:** PostgreSQL
 - **Authentication:** JWT
 
+## Short Video Demo
+Check [Demo Video](https://youtu.be/SwHZSdhL2-w) for a quick walkthrough.
+
 ## Notes
 
 - Ensure **PostgreSQL** is running before starting the backend.
