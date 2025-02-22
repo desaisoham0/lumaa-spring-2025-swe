@@ -20,6 +20,7 @@ router.get('/', authenticateToken, async (req: Request, res: Response) => {
 // Create a new task
 router.post('/', authenticateToken, async (req: Request, res: Response) => {
   const { title, description } = req.body;
+  // The authenticateToken middleware sets req.user to the logged-in user's ID
   // @ts-ignore
   const userId = req.user;
   try {
